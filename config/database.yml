@@ -17,4 +17,4 @@ development:
 
 production:
   <<: *default
-  url: <%= ENV['PRODUCTION_DATABASE_URL']
+  url: <%= ENV['PRODUCTION_DATABASE_URL'] %>
