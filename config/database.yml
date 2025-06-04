@@ -17,6 +17,4 @@ development:
 
 production:
   <<: *default
-  database: sattam_essentials_production
-  username: sattam_essentials
-  password: <%= ENV["SATTAM_ESSENTIALS_DATABASE_PASSWORD"] %>
+  url: <%= ENV['PRODUCTION_DATABASE_URL']
