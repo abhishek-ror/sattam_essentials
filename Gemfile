@@ -69,3 +69,12 @@ group :test do
 end
 
 gem 'dotenv', groups: [:development, :test]
+
+gem "devise", "~> 4.9"
+gem "devise-jwt"
+gem "activeadmin"
+gem "arctic_admin"
+gem "pundit"
+gem "tailwindcss-rails"
+gem 'active_skin'
+gem 'cancan'
