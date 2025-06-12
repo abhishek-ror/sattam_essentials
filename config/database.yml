@@ -1,19 +1,17 @@
 default: &default
   adapter: postgresql
   encoding: unicode
+  username: postgres
+  password: password
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 
 development:
   <<: *default
   database: sattam_essentials_development
   username: postgres
-  password: iamA@lekh23
+  password: password
   host: localhost
   port: 5432
-
-# test:
-#   <<: *default
-#   database: sattam_essentials_test
 
 production:
   <<: *default
