@@ -75,6 +75,7 @@ gem "devise-jwt"
 gem "activeadmin"
 gem "arctic_admin"
 gem "pundit"
-gem "tailwindcss-rails"
 gem 'active_skin'
 gem 'cancan'
+gem 'sprockets-rails'
+gem 'sassc-rails'
