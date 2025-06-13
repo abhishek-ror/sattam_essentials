@@ -47,6 +47,7 @@ gem "bootsnap", require: false
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ]
+  gem 'dotenv'
 end
 
 group :development do
@@ -68,13 +69,12 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem 'dotenv', groups: [:development, :test]
-
 gem "devise", "~> 4.9"
 gem "devise-jwt"
 gem "activeadmin"
 gem "arctic_admin"
 gem "pundit"
-gem "tailwindcss-rails"
 gem 'active_skin'
 gem 'cancan'
+gem 'sprockets-rails'
+gem 'sassc-rails'

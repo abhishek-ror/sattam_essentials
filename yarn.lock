@@ -4,5 +4,5 @@
 
 arctic_admin@^4.3.3:
   version "4.3.3"
-  resolved "https://registry.yarnpkg.com/arctic_admin/-/arctic_admin-4.3.3.tgz#3beaecce263224e1252d1d57caebdd35a38619c1"
+  resolved "https://registry.npmjs.org/arctic_admin/-/arctic_admin-4.3.3.tgz"
   integrity sha512-VZ+xSKWA6W9tKXyE9c8SeWnDwDFv0z2Q7jwMd56P2izNk1N7KWnd6BqekE6hzsFofTi73FE/5z2e/Way0vPGzQ==
