@@ -8,6 +8,5 @@ Rails.application.routes.draw do
   # Health check
   get "up" => "rails/health#show", as: :rails_health_check
 
-  # Set the root path if needed
-  # root "home#index"
+  root to: "admin/dashboard#index"
 end
