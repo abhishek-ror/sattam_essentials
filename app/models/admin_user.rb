@@ -5,6 +5,6 @@ class AdminUser < ApplicationRecord
 	enum role: { admin: 'admin', superadmin: 'superadmin' }
 
   def self.ransackable_attributes(auth_object = nil)
-    %w[id email role created_at updated_at]
+    %w[id email created_at updated_at]
   end
 end

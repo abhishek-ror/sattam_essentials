@@ -1,4 +1,21 @@
 @import "active_admin/mixins";
 @import "active_admin/base";
 @import "arctic_admin/base";
+<<<<<<< Updated upstream
 @import "tailwind.css";
+=======
+
+$primary-color: #02573c;
+@import "active_admin/mixins";
+@import "arctic_admin/base";
+
+.active_admin {
+  .quill-editor--active {
+    width: calc(70% - 100px) !important;
+  }
+}
+
+.active_admin.logged_in.edit .input .label {
+  text-align: left;
+}
+>>>>>>> Stashed changes

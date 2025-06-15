@@ -72,7 +72,7 @@ end
 gem "devise", "~> 4.9"
 gem "devise-jwt"
 gem "activeadmin"
-gem "arctic_admin"
+gem 'arctic_admin'
 gem "pundit"
 gem 'active_skin'
 gem 'cancan'
