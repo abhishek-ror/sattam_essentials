@@ -9,4 +9,8 @@ Rails.application.routes.draw do
   get "up" => "rails/health#show", as: :rails_health_check
 
   root to: "admin/dashboard#index"
+
+  post '/accounts/create', to: 'accounts#create'
+  post '/accounts/login', to: 'accounts#login'
+  post '/accounts/verify_otp', to: 'accounts#verify_otp'
 end
