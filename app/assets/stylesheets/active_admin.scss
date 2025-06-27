@@ -2,10 +2,7 @@ $primary-color: #02573c;
 @import "active_admin/mixins";
 @import "arctic_admin/base";
 
-// Overriding any non-variable Sass must be done after the fact.
-// For example, to change the default status-tag color:
-//
-//   .status_tag { background: #6090DB; }
+// Your custom overrides below
 .active_admin {
   .quill-editor--active {
     width: calc(70% - 100px) !important;
